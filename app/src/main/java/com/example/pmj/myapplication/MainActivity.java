@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     public MyLocationListener myLocationLx;
     protected Geocoder geocoder;
     protected TextToSpeech tts;
-    int a;
+    protected Button a;
 
     @Override
     public void onInit(int status) {
